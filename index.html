@@ -18,13 +18,13 @@
 <body>
     <main class="font-poppin">
         <!-- banner section -->
-        <section>
+        <section class="container mx-auto">
             <!-- banner image -->
             <div class="w-full h-[603px]  relative">
                 <img src="./img/banner.png" class="h-full w-full object-cover" alt="">
             </div>
             <!-- navbar -->
-            <div class="absolute container mx-auto flex gap-3 pt-[35px] pl-[252px] top-0">
+            <div class="absolute container mx-auto flex gap-3 p-4  pt-[35px] lg:pl-[252px] top-0">
                 <!-- logo -->
                 <div class="h-[91px] w-[136px]">
                     <img src="img/logo.png" class="h-full w-full object-cover" alt="">
@@ -32,14 +32,15 @@
                 <div>
                     <div class="text-primary font-extrabold">
                         <h2 class="text-[43px]">Round Rock</h2>
-                        <h3 class="text-[19px] mt-[-15px] tracking-1 flex items-center"><span class="mr-2">Moving </span> Services</h3>
+                        <h3 class="text-[19px] mt-[-15px] tracking-1 flex items-center"><span class="mr-2">Moving
+                            </span> Services</h3>
                     </div>
                 </div>
             </div>
-            <!-- card rigt -->
-            <div class="bg-primary pl-[252px] rounded-tr-2xl w-[630px] absolute -bottom-5 text-white">
-                <h1 class="text-[43px] font-extrabold mb-5">Moving service</h1>
-                <p class="text-[10px]">
+            <!-- card left -->
+            <div class="bg-primary lg:pl-[252px]  lg:rounded-tr-2xl lg:w-[568px] w-[385px] px-6 lg:px-0 mx-auto py-8 absolute lg:-bottom-[35px] text-white bottom-[-250px] sm:right-0 lg:left-auto lg:right-auto">
+                <h1 class="text-[43px] whitespace-nowrap font-extrabold mb-5">Moving service</h1>
+                <p class="text-[10px] font-medium max-w-[264px]">
                     Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
                     industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type
                     and scrambled it to make a type specimen book. It has survived not only five centuries, but also the
@@ -51,10 +52,12 @@
                     <button class="text-white">What the services</button>
                 </div>
             </div>
-            <!-- card left -->
+            
+            <!-- card right -->
             <div
-                class="bg-white rounded-3xl w-[446px] shadow-lg pt-12 pl-[53px] pr-[100px] absolute right-0 top-[73%] left-[66%] transform -translate-x-1/2 text-black overflow-visible">
-                <h1 class="text-[43px] text-primary font-extrabold  text-center my-6 -ml-[53px]">Lorem ipsum</h1>
+                class="bg-white rounded-3xl lg:mt-0 mt-[250px] w-[385px] lg:w-[446px] shadow-lg pt-12 px-6 lg:pl-[53px] lg:pr-[100px] lg:absolute top-[73%] right-0 left-[66%] transform lg:-translate-x-1/2 text-black overflow-visible ml-auto mr-auto">
+                <h1 class="text-[43px] text-primary font-extrabold  text-center my-6 whitespace-nowrap ml-[10px]">Lorem
+                    ipsum</h1>
                 <p class="text-[10px] max-w-[260px] font-medium text-gray">
                     Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
                     industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type
@@ -62,26 +65,28 @@
                     leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s
                     with the release of Letraset
                 </p>
-                <div class="mt-6 flex items-center gap-6 text-[10px] font-bold">
+                <div class="mt-6 flex items-end gap-6 text-[10px] font-bold">
                     <button class="text-white px-[32px] py-[15px] rounded-t-3xl bg-primary">I Need Help</button>
                     <button class="text-primary">What the services</button>
                 </div>
             </div>
-
-
         </section>
-        <!-- about section -->
-        <section class="container mx-auto px-[252px] mt-[240px]">
+
+
+        <!-- about section --> 
+        <section class="container mx-auto lg:px-[252px] mt-10 lg:mt-[240px]">
             <div class="relative">
                 <!-- about banner -->
-                <div class="w-[861px] h-[317]">
+                <div class="hidden lg:block w-[861px] h-[317]">
                     <img src="img/banner2.png" alt="">
                 </div>
-                <div class="absolute top-[-130px] w-[280px]">
+                <!-- about text -->
+                <div class="lg:absolute top-[-115px] w-[280px]">
                     <h1 class="text-[43px] text-primary mb-5 font-extrabold">
                         About Us
                     </h1>
-                    <p class="text-gray font-semibold text-[10px]">Lorem Ipsum is simply dummy text of the printing and
+                    <p class="text-gray font-semibold leading-3 text-[10px]">Lorem Ipsum is simply dummy text of the
+                        printing and
                         typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the
                         1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen
                         book. It has survived not only five centuries, but also the leap into electronic typesetting,
@@ -91,10 +96,16 @@
                 </div>
                 <!-- card center -->
                 <div
-                    class="bg-white rounded-2xl shadow-lg flex flex-col items-center absolute right-0 top-[65%] left-[50%] transform -translate-x-1/2 text-black overflow-visible">
-                    <h1 class="text-[43px] text-primary font-extrabold  text-center my-6 ">We are  family</h1>
+                    class="lg:bg-white rounded-2xl my-5 shadow-2xl flex mx-9 lg:mx-0 flex-col items-center lg:absolute right-0 top-[65%] left-[50%] transform lg:-translate-x-1/2 text-black overflow-visible">
+                    <h1 class="text-[43px] text-primary font-extrabold  text-center my-6 ">We are family</h1>
                     <p class="text-[10px] font-medium text-gray max-w-[370px] text-center">
-                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
+                        the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley
+                        of type and scrambled it to make a type specimen book. It has survived not only five centuries,
+                        but also the leap into electronic typesetting, remaining essentially unchanged. It was
+                        popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages,
+                        and more recently with desktop publishing software like Aldus PageMaker including versions of
+                        Lorem Ipsum.
                     </p>
                     <div class="mt-6 flex items-center gap-6 text-[10px] font-bold">
                         <button class="text-white px-[32px] py-[15px] rounded-t-3xl bg-primary">I Need Help</button>
@@ -102,7 +113,99 @@
                 </div>
             </div>
         </section>
+
+        <!-- sevice section -->
+        <section class="mt-8 lg:mt-[270px] container mx-auto">
+            <div class="relative lg:bg-primary pt-10 lg:pb-20 lg:px-[252px]">
+                <h1 class="text-[43px] font-extrabold text-primary text-center lg:text-start lg:text-white">Services</h1>
+                <!-- section card -->
+                <div class="lg:absolute">
+                    <div class="mt-7 flex justify-center flex-wrap gap-4">
+                        <!-- card 1 -->
+                        <div class="w-[385px] lg:w-[275px] rounded-3xl shadow-md bg-white">
+                            <img src="img/service1.png" alt="">
+                            <div class="p-5 text-center lg:text-start">
+                                <h1 class="text-xs font-bold mb-2 text-primary">Lorem Ipsum</h1>
+                                <p class="text-[10px] font-medium text-[#404C6B]">Lorem Ipsum is simply dummy text of
+                                    the
+                                    printing and typesetting industry. Lorem Ipsum has been the industry's standard
+                                    dummy
+                                    text ever since the 1500s, when an unknown printer took a galley of type and
+                                    scrambled
+                                </p>
+                            </div>
+                        </div>
+                        <!-- card 2 -->
+                        <div class="w-[385px] lg:w-[275px] rounded-3xl shadow-md bg-white">
+                            <img src="img/service2.png" alt="">
+                            <div class="p-5 text-center lg:text-start">
+                                <h1 class="text-xs font-bold mb-2 text-primary">Lorem Ipsum</h1>
+                                <p class="text-[10px] font-medium text-[#404C6B]">Lorem Ipsum is simply dummy text of
+                                    the
+                                    printing and typesetting industry. Lorem Ipsum has been the industry's standard
+                                    dummy
+                                    text ever since the 1500s, when an unknown printer took a galley of type and
+                                    scrambled
+                                </p>
+                            </div>
+                        </div>
+                        <!-- card 3 -->
+                        <div class="w-[385px] lg:w-[275px] rounded-3xl shadow-md bg-white">
+                            <img src="img/service3.png" alt="">
+                            <div class="p-5 text-center lg:text-start">
+                                <h1 class="text-xs font-bold mb-2 text-primary">Lorem Ipsum</h1>
+                                <p class="text-[10px] font-medium text-[#404C6B]">Lorem Ipsum is simply dummy text of
+                                    the
+                                    printing and typesetting industry. Lorem Ipsum has been the industry's standard
+                                    dummy
+                                    text ever since the 1500s, when an unknown printer took a galley of type and
+                                    scrambled
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="text-white px-[32px] py-[15px] block mx-auto my-9 rounded-3xl bg-primary">I Need Help</button>
+                </div>
+            </div>
+        </section>
+
+        
+        <!-- contact section -->
+        <section class="container mt-8 lg:mt-[435px] mx-auto">
+            <div class="bg-[#F2F2F2] flex flex-col items-center py-9">
+                <h1 class="text-[43px] text-primary font-extrabold"> Contact Us</h1>
+                <!-- contect -->
+                <div class="flex flex-col lg:flex-row mt-9 gap-[72px]">
+                    <!-- left -->
+                    <div class="flex flex-col items-center gap-[10px]">
+                        <div class="bg-[#9FB1DE] h-10 rounded-3xl w-64"></div>
+                        <div class="bg-[#9FB1DE] h-10 rounded-3xl w-64"></div>
+                        <div class="bg-[#9FB1DE] h-10 rounded-3xl w-64"></div>
+                        <div class="border-2 rounded-3xl h-10 w-[120px] border-primary "></div>
+                    </div>
+                    <!-- right side icons-->
+                    <div class="flex flex-col items-center lg:items-start mt-5 gap-6 text-primary">
+                        <div class="flex items-center gap-[14px]">
+                            <img class="w-[14px] h-[11px]" src="img/envlop.png" alt="">
+                            <h6>test@gmail.com</h6>
+                        </div>
+                        <div class="flex items-center gap-[14px]">
+                            <img class="w-[13px] h-[13px]" src="img/phon.png" alt="">
+                            <h6>(303) 561-1234</h6>
+                        </div>
+                        <div class="flex items-center gap-[14px]">
+                            <img class="w-[10px] h-[14px]" src="img/location.png" alt="">
+                            <h6>2715 Ash Dr. San Jose, South Dakota 83475</h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- footer section -->
+        <div class="bg-[#2D3751] h-[104px] w-full"></div>
     </main>
+
 </body>
 
 </html>

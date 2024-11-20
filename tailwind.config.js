@@ -12,7 +12,11 @@ module.exports = {
     letterSpacing: {
       '1': '8px',
     },
+    
     extend: {
+      borderRadius:{
+        primary:"30px"
+      },
       colors: {
         primary: "#4D6BB9",
         secondary:"#9FB1DE",
