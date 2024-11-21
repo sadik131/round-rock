@@ -6,7 +6,7 @@ A brief description of what this project does and who it's for
 
 ## PDF of website
 
-pdf: https://drive.google.com/file/d/1iI-Favxb-y4bHUdphWBPCMLYu0-tEepq/view?usp=sharing
+web pdf: https://drive.google.com/file/d/1u_6JLgAIiMboPXgThVbIs4qu2ZK2gI6p/view?usp=sharing
 
 ## Installation
 

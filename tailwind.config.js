@@ -12,7 +12,11 @@ module.exports = {
     letterSpacing: {
       '1': '8px',
     },
-    
+    screens:{
+      sm:"320px",
+      md:"768px",
+      lg:"1200px",
+    },
     extend: {
       borderRadius:{
         primary:"30px"

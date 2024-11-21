@@ -576,8 +576,8 @@ video {
   position: relative;
 }
 
-.bottom-\[-250px\] {
-  bottom: -250px;
+.bottom-\[-40px\] {
+  bottom: -40px;
 }
 
 .left-\[50\%\] {
@@ -608,12 +608,12 @@ video {
   top: 73%;
 }
 
-.bottom-\[-200px\] {
-  bottom: -200px;
+.bottom-\[-280px\] {
+  bottom: -280px;
 }
 
-.bottom-\[-40px\] {
-  bottom: -40px;
+.right-\[1px\] {
+  right: 1px;
 }
 
 .mx-9 {
@@ -639,6 +639,11 @@ video {
 .my-9 {
   margin-top: 2.25rem;
   margin-bottom: 2.25rem;
+}
+
+.my-2 {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
 }
 
 .mb-2 {
@@ -693,16 +698,16 @@ video {
   margin-top: 2.25rem;
 }
 
-.mt-\[-15px\] {
-  margin-top: -15px;
-}
-
 .mt-\[250px\] {
   margin-top: 250px;
 }
 
-.mt-\[-10px\] {
-  margin-top: -10px;
+.ml-0 {
+  margin-left: 0px;
+}
+
+.mr-0 {
+  margin-right: 0px;
 }
 
 .block {
@@ -777,6 +782,10 @@ video {
   width: 14px;
 }
 
+.w-\[260px\] {
+  width: 260px;
+}
+
 .w-\[280px\] {
   width: 280px;
 }
@@ -791,10 +800,6 @@ video {
 
 .w-full {
   width: 100%;
-}
-
-.w-\[260px\] {
-  width: 260px;
 }
 
 .max-w-\[260px\] {
@@ -975,6 +980,11 @@ video {
   font-family: Poppins, sans-serif;
 }
 
+.text-3xl {
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+}
+
 .text-\[10px\] {
   font-size: 10px;
 }
@@ -983,18 +993,9 @@ video {
   font-size: 19px;
 }
 
-.text-\[43px\] {
-  font-size: 43px;
-}
-
 .text-xs {
   font-size: 0.75rem;
   line-height: 1rem;
-}
-
-.text-3xl {
-  font-size: 1.875rem;
-  line-height: 2.25rem;
 }
 
 .font-bold {
@@ -1015,6 +1016,14 @@ video {
 
 .leading-3 {
   line-height: .75rem;
+}
+
+.leading-4 {
+  line-height: 1rem;
+}
+
+.leading-\[15px\] {
+  line-height: 15px;
 }
 
 .tracking-1 {
@@ -1064,13 +1073,17 @@ video {
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
 
-@media (min-width: 640px) {
+@media (min-width: 320px) {
   .sm\:right-0 {
     right: 0px;
   }
+
+  .sm\:right-\[1px\] {
+    right: 1px;
+  }
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 1200px) {
   .lg\:absolute {
     position: absolute;
   }
@@ -1085,6 +1098,10 @@ video {
 
   .lg\:right-auto {
     right: auto;
+  }
+
+  .lg\:-bottom-\[280px\] {
+    bottom: -280px;
   }
 
   .lg\:mx-0 {
